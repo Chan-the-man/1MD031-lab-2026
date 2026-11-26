@@ -1,1 +1,138 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="sv">
+   <head>
+       <title>BurgerOnline</title>
+       <meta charset="utf-8"/>
+   </head>
+ 
+   <body>
+        <header>
+            <h1>Välkommen till BurgerOnline</h1>
+        </header>
+
+        <main>
+            <section>
+                <h2>Välj burgare</h2>
+
+                <div style="display:inline-block">
+                    <h3>
+                        Cheese burger
+                    </h3>
+                    <img src = https://www.hungryjacks.com.au/Upload/HJ/Media/Menu/product/Main/HJD0042_BBQ_Cheeseburger_ALC_WEB_800x600px_2.png
+                    style="width:300px;">
+
+                    <dl>
+                        <dt>Allergener</dt>
+                        <dd>gluten</dd>
+                        <dd>mejeriprodukter</dd>
+                    </dl>
+                </div>
+
+                <div style="display:inline-block">
+                    <h3>
+                        Chicken burger
+                    </h3>
+                    <img src = https://cdn-bk-se-ordering.azureedge.net/media/l2zl04kj/fo_1100x1024_gourmet-japanese-katsu-chicken.png
+                    style = "width: 300px;">
+
+                    <dl>
+                        <dt>Allergener</dt>
+                        <dd>gluten</dd>
+                        <dd>mejeriprodukter</dd>
+                    </dl>
+                </div>
+
+                <div style="display:inline-block">
+                    <h3>
+                        Big back burger
+                    </h3>
+                    <img src = https://cdn-bk-se-ordering.azureedge.net/media/4qol044m/fo_1100x1024_whopper.png
+                    style = "width: 300px;">
+
+                    <dl>
+                        <dt>Allergener</dt>
+                        <dd>gluten</dd>
+                    </dl>
+                </div>
+            </section>
+        
+        
+        
+            <section>
+                <h2>Kundinformation</h2>       
+               
+
+                <h3>
+                    leveransuppgifter
+                </h3>
+                <div>
+                    <p>
+                        <label for="fullname">Name</label><br>
+                        <input type="text" id="fullname" name="fn" required="required" placeholder="Full name">
+                    </p>
+
+                    <p>
+                        <label for="email">E-mail</label><br>
+                        <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
+                    </p>
+
+                    <p>
+                        <label for="Street">Street</label><br>
+                        <input type="Street" id="Street" name="s" required="required" placeholder="Street name">
+                    </p>
+
+                    <p>
+                        <label for="House">House</label><br>
+                        <input type="House" id="House" name="h" required="required" placeholder="House number">
+                    </p>
+                </div>
+
+            </section>
+
+            <section>
+                <h2>Betalningsmetod</h2>
+
+                <p>
+                    <label for="betalning">betalning</label><br>
+                    <select id="betalning" name="b">
+                        <option selected="selected">Kort</option>
+                        <option>Swish</option>
+                        <option>Apple pay</option>
+                    </select>
+                </p>
+            </section>
+
+            <section>
+
+                <p>
+                    
+                    <div>Ange kön</div>
+                        
+                    <input type="radio" id="man" name="kön">
+                    <label for="man">Man</label>
+
+                    <input type="radio" id="kvinna" name="kön">
+                    <label for="kvinna">Kvinna</label>
+
+                    <input type="radio" id="nej" name="kön">
+                    <label for="nej">Vill ej ange</label>
+                    
+                    
+
+                </p>
+            </section>
+
+            <section>
+                <button type="submit">
+                    <img src=https://img.magnific.com/premium-photo/place-order-button-3d-illustration_115990-10800.jpg 
+                    style="width: 200px;">
+                </button>
+            </section>
+        </main>  
+        
+        <hr>
+        <footer>
+            &copy; Burger inc
+        </footer>
+    </body>
+</html>
